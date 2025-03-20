@@ -28,5 +28,5 @@ html {
         --color-light-grey: #f3f3f3;
         --color-white: #ffffff;
         --color-dark-grey: #353535;
-        --text-color: --color-black;
+        --text-color: color-black;
     }

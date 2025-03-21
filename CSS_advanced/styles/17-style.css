@@ -131,8 +131,7 @@ h1, h2, h3, h4, h5, h6 {
   --section-pading: 5rem 0;
   --section-header-pading: 0 0 3rem;
   --section-body-pading: 0 0 3rem;
-  --section-footer-pading: 2rem 0 0;
+  --section-footer-pading: 3rem 0 0;
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
 }
-

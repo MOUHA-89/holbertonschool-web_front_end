@@ -20,8 +20,8 @@ a{
 
 
 a[href]:link{
-    color: purple;
-    font-style:italic;
+    color: var(--text-color);
+    text-decoration:none;
 }
 
 a[href]:visited{

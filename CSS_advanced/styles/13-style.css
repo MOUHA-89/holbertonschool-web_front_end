@@ -19,22 +19,22 @@ a{
 }
 
 
-a[href]:link{
+a:link{
     color: var(--text-color);
     text-decoration:none;
 }
 
-a[href]:visited{
+a:visited{
     color:purple;
     font-style: italic;
 }
 
-a[href]:hover{
+a:hover{
   color: red;
   text-decoration: underline;
 }
 
-a[href]:active{
+a:active{
   background-color: var(--color-light-grey);
 }
 

@@ -20,7 +20,7 @@ a{
 
 
 a[href]:link{
-    color: blue;
+    color: purple;
     font-style:italic;
 }
 

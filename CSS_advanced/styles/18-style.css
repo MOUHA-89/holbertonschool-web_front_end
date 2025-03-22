@@ -475,11 +475,6 @@
         color: var(--nav-item-link-hover);
     }
 
-
-  .center-text{
-    text-align: center;
-  }
-
   :root {
     --color-primary: #D73953;
     --color-black: #090909;

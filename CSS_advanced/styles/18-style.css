@@ -379,7 +379,7 @@
   }
   
   a:visited {
-    color:purple;
+    color: purple;
     font-style: italic;
   }
   
@@ -392,6 +392,35 @@
     background-color: var(--color-light-grey);
   }
   
+  .navbar-menu{
+    float: right;
+  }
+  
+  .nav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .nav .nav-item{
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+  }
+  
+  .nav .nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
+  }
+  
   .visually-hidden{
       display: none;
   }
@@ -402,6 +431,7 @@
   
   .section{
     padding: var(--section-padding);
+  
   }
   
   .section-header{
@@ -415,6 +445,7 @@
   .section-footer{
     text-align: var(--section-footer-align);
     padding: var(--section-footer-padding);
+  
   }
   
   .section-title{
@@ -447,41 +478,13 @@
     padding: var(--footer-padding);
   }
   
-  .navbar-menu{
-    float: right;
-  }
-
-  .nav{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-  }
-    .nav .nav-item{
-        font-family: var(--nav-item-font-family);
-        font-weight: var(--nav-item-font-weight);
-        font-size: var(--nav-item-font-size);
-        letter-spacing: var(--nav-item-letter-spacing);
-        display: var(--nav-item-display);
-        margin: var(--nav-item-margin);
-    }
-
-    .nav .nav-link{
-        display: block;
-        margin: 0.5rem 1rem;
-    }
-
-    .nav .nav-link:hover{
-        color: var(--nav-item-link-hover);
-    }
-
   :root {
     --color-primary: #D73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: var(--color-black);
+    --text-color: var(--color-primary);
     --font-family-base: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     --ont-family-title: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
